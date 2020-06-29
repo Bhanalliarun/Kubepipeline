@@ -1,8 +1,5 @@
 node {
-    stage('SCM checkout') {
-        git 'https://github.com/Bhanalliarun/Kubepipeline.git'
-    }
-
+    
     stage('Mvn Package'){
         def mvnHome = tool name: 'Maven', type: 'maven'
         def mvnCMD = "${mvnHome}/bin/mvn"
