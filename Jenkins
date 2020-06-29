@@ -1,6 +1,6 @@
 node {
     stage('SCM checkout') {
-        git 'https://github.com/Bhanalliarun/Kubepipeline'
+        git 'https://github.com/Bhanalliarun/Kubepipeline.git'
     }
 
     stage('Mvn Package'){
