@@ -8,7 +8,7 @@
 	<artifactId>sparkjava-hello-world</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-<!--hi-->
+<!--hi hello-->
 	<dependencies>
 		<dependency>
 			<groupId>com.sparkjava</groupId>
